@@ -7,35 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14D1DD48161692F20078A305 /* SFKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D1DD47161692F20078A305 /* SFKViewController.xib */; };
-		14D1DD8F16193FC60078A305 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D1DD8E16193FC60078A305 /* Default-568h@2x.png */; };
+		14D1DD9B161944E80078A305 /* SFKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D1DD9A161944E80078A305 /* SFKImage.m */; };
+		14D1DDA1161944FA0078A305 /* SFKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D1DD9D161944FA0078A305 /* SFKAppDelegate.m */; };
+		14D1DDA2161944FA0078A305 /* SFKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D1DD9F161944FA0078A305 /* SFKViewController.m */; };
+		14D1DDA3161944FA0078A305 /* SFKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D1DDA0161944FA0078A305 /* SFKViewController.xib */; };
+		14D1DDA8161945130078A305 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D1DDA4161945130078A305 /* Default-568h@2x.png */; };
+		14D1DDA9161945130078A305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D1DDA5161945130078A305 /* main.m */; };
+		14D1DDAA161945130078A305 /* SymbolFontKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14D1DDA6161945130078A305 /* SymbolFontKit-Info.plist */; };
 		14FFFC1E15E8680600FFE65C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FFFC1D15E8680600FFE65C /* UIKit.framework */; };
 		14FFFC2015E8680600FFE65C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FFFC1F15E8680600FFE65C /* Foundation.framework */; };
 		14FFFC2215E8680600FFE65C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FFFC2115E8680600FFE65C /* CoreGraphics.framework */; };
-		14FFFC2A15E8680600FFE65C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FFFC2915E8680600FFE65C /* main.m */; };
-		14FFFC2E15E8680600FFE65C /* SFKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FFFC2D15E8680600FFE65C /* SFKAppDelegate.m */; };
-		14FFFC3115E8680600FFE65C /* SFKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FFFC3015E8680600FFE65C /* SFKViewController.m */; };
 		14FFFC4015E86F0000FFE65C /* LigatureSymbols.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14FFFC3F15E86F0000FFE65C /* LigatureSymbols.ttf */; };
-		14FFFC4315E873E700FFE65C /* SFKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FFFC4215E873E700FFE65C /* SFKImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14D1DD47161692F20078A305 /* SFKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFKViewController.xib; sourceTree = "<group>"; };
-		14D1DD8E16193FC60078A305 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		14D1DD99161944E80078A305 /* SFKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFKImage.h; sourceTree = "<group>"; };
+		14D1DD9A161944E80078A305 /* SFKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFKImage.m; sourceTree = "<group>"; };
+		14D1DD9C161944FA0078A305 /* SFKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFKAppDelegate.h; sourceTree = "<group>"; };
+		14D1DD9D161944FA0078A305 /* SFKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFKAppDelegate.m; sourceTree = "<group>"; };
+		14D1DD9E161944FA0078A305 /* SFKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFKViewController.h; sourceTree = "<group>"; };
+		14D1DD9F161944FA0078A305 /* SFKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFKViewController.m; sourceTree = "<group>"; };
+		14D1DDA0161944FA0078A305 /* SFKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFKViewController.xib; sourceTree = "<group>"; };
+		14D1DDA4161945130078A305 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		14D1DDA5161945130078A305 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14D1DDA6161945130078A305 /* SymbolFontKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SymbolFontKit-Info.plist"; sourceTree = "<group>"; };
+		14D1DDA7161945130078A305 /* SymbolFontKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SymbolFontKit-Prefix.pch"; sourceTree = "<group>"; };
 		14FFFC1915E8680600FFE65C /* SymbolFontKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolFontKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FFFC1D15E8680600FFE65C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		14FFFC1F15E8680600FFE65C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		14FFFC2115E8680600FFE65C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		14FFFC2515E8680600FFE65C /* SymbolFontKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SymbolFontKit-Info.plist"; sourceTree = "<group>"; };
-		14FFFC2915E8680600FFE65C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		14FFFC2B15E8680600FFE65C /* SymbolFontKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SymbolFontKit-Prefix.pch"; sourceTree = "<group>"; };
-		14FFFC2C15E8680600FFE65C /* SFKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFKAppDelegate.h; sourceTree = "<group>"; };
-		14FFFC2D15E8680600FFE65C /* SFKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFKAppDelegate.m; sourceTree = "<group>"; };
-		14FFFC2F15E8680600FFE65C /* SFKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFKViewController.h; sourceTree = "<group>"; };
-		14FFFC3015E8680600FFE65C /* SFKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFKViewController.m; sourceTree = "<group>"; };
 		14FFFC3F15E86F0000FFE65C /* LigatureSymbols.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LigatureSymbols.ttf; path = Vendor/LigatureSymbols/LigatureSymbols.ttf; sourceTree = SOURCE_ROOT; };
-		14FFFC4115E873E700FFE65C /* SFKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFKImage.h; sourceTree = "<group>"; };
-		14FFFC4215E873E700FFE65C /* SFKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFKImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +56,11 @@
 		14D1DD8816193E800078A305 /* Sample App */ = {
 			isa = PBXGroup;
 			children = (
-				14FFFC2C15E8680600FFE65C /* SFKAppDelegate.h */,
-				14FFFC2D15E8680600FFE65C /* SFKAppDelegate.m */,
-				14FFFC2F15E8680600FFE65C /* SFKViewController.h */,
-				14FFFC3015E8680600FFE65C /* SFKViewController.m */,
-				14D1DD47161692F20078A305 /* SFKViewController.xib */,
+				14D1DD9C161944FA0078A305 /* SFKAppDelegate.h */,
+				14D1DD9D161944FA0078A305 /* SFKAppDelegate.m */,
+				14D1DD9E161944FA0078A305 /* SFKViewController.h */,
+				14D1DD9F161944FA0078A305 /* SFKViewController.m */,
+				14D1DDA0161944FA0078A305 /* SFKViewController.xib */,
 			);
 			name = "Sample App";
 			sourceTree = "<group>";
@@ -94,8 +95,8 @@
 		14FFFC2315E8680600FFE65C /* SymbolFontKit */ = {
 			isa = PBXGroup;
 			children = (
-				14FFFC4115E873E700FFE65C /* SFKImage.h */,
-				14FFFC4215E873E700FFE65C /* SFKImage.m */,
+				14D1DD99161944E80078A305 /* SFKImage.h */,
+				14D1DD9A161944E80078A305 /* SFKImage.m */,
 				14D1DD8816193E800078A305 /* Sample App */,
 				14FFFC3E15E86DCF00FFE65C /* Fonts */,
 				14FFFC2415E8680600FFE65C /* Supporting Files */,
@@ -106,10 +107,10 @@
 		14FFFC2415E8680600FFE65C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				14FFFC2915E8680600FFE65C /* main.m */,
-				14FFFC2B15E8680600FFE65C /* SymbolFontKit-Prefix.pch */,
-				14FFFC2515E8680600FFE65C /* SymbolFontKit-Info.plist */,
-				14D1DD8E16193FC60078A305 /* Default-568h@2x.png */,
+				14D1DDA4161945130078A305 /* Default-568h@2x.png */,
+				14D1DDA5161945130078A305 /* main.m */,
+				14D1DDA6161945130078A305 /* SymbolFontKit-Info.plist */,
+				14D1DDA7161945130078A305 /* SymbolFontKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,8 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14FFFC4015E86F0000FFE65C /* LigatureSymbols.ttf in Resources */,
-				14D1DD48161692F20078A305 /* SFKViewController.xib in Resources */,
-				14D1DD8F16193FC60078A305 /* Default-568h@2x.png in Resources */,
+				14D1DDA3161944FA0078A305 /* SFKViewController.xib in Resources */,
+				14D1DDA8161945130078A305 /* Default-568h@2x.png in Resources */,
+				14D1DDAA161945130078A305 /* SymbolFontKit-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,10 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14FFFC2A15E8680600FFE65C /* main.m in Sources */,
-				14FFFC2E15E8680600FFE65C /* SFKAppDelegate.m in Sources */,
-				14FFFC3115E8680600FFE65C /* SFKViewController.m in Sources */,
-				14FFFC4315E873E700FFE65C /* SFKImage.m in Sources */,
+				14D1DD9B161944E80078A305 /* SFKImage.m in Sources */,
+				14D1DDA1161944FA0078A305 /* SFKAppDelegate.m in Sources */,
+				14D1DDA2161944FA0078A305 /* SFKViewController.m in Sources */,
+				14D1DDA9161945130078A305 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

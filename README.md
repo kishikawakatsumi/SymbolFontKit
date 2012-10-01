@@ -4,6 +4,8 @@ SymbolFontKit
 **Easy to use 'Symbol Font' as image in iOS 6.**
 
 A sample app and library to render 'Symbol Font' as a UIImage object.
+------
+<img src="http://cloud.github.com/downloads/kishikawakatsumi/SymbolFontKit/1.png" alt="ScreenShot1" width="225px" style="width: 225px;" />&nbsp;
 
 ## Included Symbol Font
 
