@@ -79,7 +79,6 @@ void listMethods(id cls) {
     image.size = CGSizeMake(20, 20);
     image.color = [UIColor redColor];
     self.imageView6.image = image;
-    self.imageView6.image = image;
     
     image.size = CGSizeMake(40, 40);
     image.color = [UIColor yellowColor];
