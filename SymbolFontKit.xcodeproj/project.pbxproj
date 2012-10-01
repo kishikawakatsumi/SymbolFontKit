@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14D1DD48161692F20078A305 /* SFKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D1DD47161692F20078A305 /* SFKViewController.xib */; };
+		14D1DD8F16193FC60078A305 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D1DD8E16193FC60078A305 /* Default-568h@2x.png */; };
+		14FFFC1E15E8680600FFE65C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FFFC1D15E8680600FFE65C /* UIKit.framework */; };
+		14FFFC2015E8680600FFE65C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FFFC1F15E8680600FFE65C /* Foundation.framework */; };
+		14FFFC2215E8680600FFE65C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FFFC2115E8680600FFE65C /* CoreGraphics.framework */; };
+		14FFFC2A15E8680600FFE65C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FFFC2915E8680600FFE65C /* main.m */; };
+		14FFFC2E15E8680600FFE65C /* SFKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FFFC2D15E8680600FFE65C /* SFKAppDelegate.m */; };
+		14FFFC3115E8680600FFE65C /* SFKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FFFC3015E8680600FFE65C /* SFKViewController.m */; };
+		14FFFC4015E86F0000FFE65C /* LigatureSymbols.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14FFFC3F15E86F0000FFE65C /* LigatureSymbols.ttf */; };
+		14FFFC4315E873E700FFE65C /* SFKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FFFC4215E873E700FFE65C /* SFKImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14D1DD47161692F20078A305 /* SFKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFKViewController.xib; sourceTree = "<group>"; };
+		14D1DD8E16193FC60078A305 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		14FFFC1915E8680600FFE65C /* SymbolFontKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolFontKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14FFFC1D15E8680600FFE65C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14FFFC1F15E8680600FFE65C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14FFFC2115E8680600FFE65C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14FFFC2515E8680600FFE65C /* SymbolFontKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SymbolFontKit-Info.plist"; sourceTree = "<group>"; };
+		14FFFC2915E8680600FFE65C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14FFFC2B15E8680600FFE65C /* SymbolFontKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SymbolFontKit-Prefix.pch"; sourceTree = "<group>"; };
+		14FFFC2C15E8680600FFE65C /* SFKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFKAppDelegate.h; sourceTree = "<group>"; };
+		14FFFC2D15E8680600FFE65C /* SFKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFKAppDelegate.m; sourceTree = "<group>"; };
+		14FFFC2F15E8680600FFE65C /* SFKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFKViewController.h; sourceTree = "<group>"; };
+		14FFFC3015E8680600FFE65C /* SFKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFKViewController.m; sourceTree = "<group>"; };
+		14FFFC3F15E86F0000FFE65C /* LigatureSymbols.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LigatureSymbols.ttf; path = Vendor/LigatureSymbols/LigatureSymbols.ttf; sourceTree = SOURCE_ROOT; };
+		14FFFC4115E873E700FFE65C /* SFKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFKImage.h; sourceTree = "<group>"; };
+		14FFFC4215E873E700FFE65C /* SFKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFKImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14FFFC1615E8680600FFE65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FFFC1E15E8680600FFE65C /* UIKit.framework in Frameworks */,
+				14FFFC2015E8680600FFE65C /* Foundation.framework in Frameworks */,
+				14FFFC2215E8680600FFE65C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14D1DD8816193E800078A305 /* Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				14FFFC2C15E8680600FFE65C /* SFKAppDelegate.h */,
+				14FFFC2D15E8680600FFE65C /* SFKAppDelegate.m */,
+				14FFFC2F15E8680600FFE65C /* SFKViewController.h */,
+				14FFFC3015E8680600FFE65C /* SFKViewController.m */,
+				14D1DD47161692F20078A305 /* SFKViewController.xib */,
+			);
+			name = "Sample App";
+			sourceTree = "<group>";
+		};
+		14FFFC0E15E8680600FFE65C = {
+			isa = PBXGroup;
+			children = (
+				14FFFC2315E8680600FFE65C /* SymbolFontKit */,
+				14FFFC1C15E8680600FFE65C /* Frameworks */,
+				14FFFC1A15E8680600FFE65C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14FFFC1A15E8680600FFE65C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14FFFC1915E8680600FFE65C /* SymbolFontKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14FFFC1C15E8680600FFE65C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14FFFC1D15E8680600FFE65C /* UIKit.framework */,
+				14FFFC1F15E8680600FFE65C /* Foundation.framework */,
+				14FFFC2115E8680600FFE65C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14FFFC2315E8680600FFE65C /* SymbolFontKit */ = {
+			isa = PBXGroup;
+			children = (
+				14FFFC4115E873E700FFE65C /* SFKImage.h */,
+				14FFFC4215E873E700FFE65C /* SFKImage.m */,
+				14D1DD8816193E800078A305 /* Sample App */,
+				14FFFC3E15E86DCF00FFE65C /* Fonts */,
+				14FFFC2415E8680600FFE65C /* Supporting Files */,
+			);
+			path = SymbolFontKit;
+			sourceTree = "<group>";
+		};
+		14FFFC2415E8680600FFE65C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14FFFC2915E8680600FFE65C /* main.m */,
+				14FFFC2B15E8680600FFE65C /* SymbolFontKit-Prefix.pch */,
+				14FFFC2515E8680600FFE65C /* SymbolFontKit-Info.plist */,
+				14D1DD8E16193FC60078A305 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14FFFC3E15E86DCF00FFE65C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				14FFFC3F15E86F0000FFE65C /* LigatureSymbols.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14FFFC1815E8680600FFE65C /* SymbolFontKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14FFFC3715E8680600FFE65C /* Build configuration list for PBXNativeTarget "SymbolFontKit" */;
+			buildPhases = (
+				14FFFC1515E8680600FFE65C /* Sources */,
+				14FFFC1615E8680600FFE65C /* Frameworks */,
+				14FFFC1715E8680600FFE65C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SymbolFontKit;
+			productName = SymbolFontKit;
+			productReference = 14FFFC1915E8680600FFE65C /* SymbolFontKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14FFFC1015E8680600FFE65C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SFK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "kishikawa katsumi";
+			};
+			buildConfigurationList = 14FFFC1315E8680600FFE65C /* Build configuration list for PBXProject "SymbolFontKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14FFFC0E15E8680600FFE65C;
+			productRefGroup = 14FFFC1A15E8680600FFE65C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14FFFC1815E8680600FFE65C /* SymbolFontKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14FFFC1715E8680600FFE65C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FFFC4015E86F0000FFE65C /* LigatureSymbols.ttf in Resources */,
+				14D1DD48161692F20078A305 /* SFKViewController.xib in Resources */,
+				14D1DD8F16193FC60078A305 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14FFFC1515E8680600FFE65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FFFC2A15E8680600FFE65C /* main.m in Sources */,
+				14FFFC2E15E8680600FFE65C /* SFKAppDelegate.m in Sources */,
+				14FFFC3115E8680600FFE65C /* SFKViewController.m in Sources */,
+				14FFFC4315E873E700FFE65C /* SFKImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14FFFC3515E8680600FFE65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14FFFC3615E8680600FFE65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14FFFC3815E8680600FFE65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SymbolFontKit/SymbolFontKit-Prefix.pch";
+				INFOPLIST_FILE = "SymbolFontKit/SymbolFontKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14FFFC3915E8680600FFE65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SymbolFontKit/SymbolFontKit-Prefix.pch";
+				INFOPLIST_FILE = "SymbolFontKit/SymbolFontKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14FFFC1315E8680600FFE65C /* Build configuration list for PBXProject "SymbolFontKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14FFFC3515E8680600FFE65C /* Debug */,
+				14FFFC3615E8680600FFE65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14FFFC3715E8680600FFE65C /* Build configuration list for PBXNativeTarget "SymbolFontKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14FFFC3815E8680600FFE65C /* Debug */,
+				14FFFC3915E8680600FFE65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14FFFC1015E8680600FFE65C /* Project object */;
+}
