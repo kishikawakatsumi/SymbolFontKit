@@ -8,10 +8,9 @@ A sample app and library to render 'Symbol Font' as a UIImage object.
 <img src="http://cloud.github.com/downloads/kishikawakatsumi/SymbolFontKit/1.png" alt="ScreenShot1" width="225px" style="width: 225px;" />&nbsp;
 
 ## Usage
-1. Copy SFKImage.h/m into your project.
-2. Copy any symbol font files into your project.
-3. Add UIAppFonts element in Info.plist.
-
+1. Add SFKImage.h/m into your project.
+2. Add your custom font files into your project using XCode as resources.
+3. Add a key to your Info.plist file called “Fonts provided by application” ( Used to be called UIAppFonts). For each font you have, enter the full name of your font file (including the extension).
 
 ## Included Symbol Font
 
