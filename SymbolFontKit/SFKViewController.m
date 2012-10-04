@@ -48,20 +48,6 @@
 @synthesize button4;
 @synthesize button5;
 
-void listMethods(id cls) {
-    unsigned int method_count = 0;
-    Method* m = class_copyMethodList(cls, &method_count);
-    for (unsigned int i = 0; i < method_count; ++i) {
-        SEL sel = method_getName(m[i]);
-        const char* enc = method_getTypeEncoding(m[i]);
-        char ret[256];
-        method_getReturnType(m[i], ret, sizeof(ret) - 1);
-        
-        NSLog(@"method: %s (%s)", (char*)sel, enc);
-    }
-    free(m);
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
