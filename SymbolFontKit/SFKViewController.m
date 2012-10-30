@@ -52,7 +52,7 @@
 {
     [super viewDidLoad];
     
-    [SFKImage setDefaultFont:[UIFont fontWithName:@"LigatureSymbols" size:36.0f]];
+    [SFKImage setDefaultFont:[UIFont fontWithName:@"LigatureSymbols" size:34.0f]];
     [SFKImage setDefaultColor:[UIColor blackColor]];
     
     self.imageView1.image = [SFKImage imageNamed:@"share"];

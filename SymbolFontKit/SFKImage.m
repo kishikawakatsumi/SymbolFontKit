@@ -97,7 +97,7 @@ static UIColor *defaultBackgroundColor;
         self.backgroundColor = defaultBackgroundColor;
     }
     
-    self.font = [UIFont fontWithName:self.font.fontName size:self.size.height];
+    self.font = [UIFont fontWithName:self.font.fontName size:self.size.height * 0.9f];
     
     NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:self.name];
     [text addAttribute:NSFontAttributeName value:self.font range:NSMakeRange(0, text.length)];
@@ -105,9 +105,9 @@ static UIColor *defaultBackgroundColor;
     [text addAttribute:NSForegroundColorAttributeName value:self.color range:NSMakeRange(0, text.length)];
     
     CGRect bounds = CGRectMake(0.0f, 0.0f, self.size.width, self.size.height);
-    CGSize imageSize = [text size];
-    CGFloat x = (bounds.size.width - imageSize.width) / 2;
-    CGFloat y = (bounds.size.height - imageSize.height) / 2;
+    CGSize imageSize = text.size;
+    CGFloat x = MAX((bounds.size.width - imageSize.width) / 2, 0.0f);
+    CGFloat y = MAX((bounds.size.height - imageSize.height) / 2, 0.0f);
     
     UIGraphicsBeginImageContextWithOptions(self.size, NO, 0.0f);
     
